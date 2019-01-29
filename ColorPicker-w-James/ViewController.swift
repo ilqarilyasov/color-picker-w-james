@@ -16,7 +16,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func changeBackgroundColor(_ sender: ColorWheel) {
-        print("Value changed")
+        view.backgroundColor = sender.color
     }
 }
 
