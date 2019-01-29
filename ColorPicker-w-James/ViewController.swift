@@ -10,11 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
-
     @IBAction func changeBackgroundColor(_ sender: ColorWheel) {
         view.backgroundColor = sender.color
     }
